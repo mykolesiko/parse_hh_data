@@ -9,8 +9,8 @@ from requests.exceptions import HTTPError, ConnectionError, Timeout
 from random_user_agent.user_agent import UserAgent
 from random_user_agent.params import SoftwareName, OperatingSystem
 
-from .parse import num_pages as parse_num_pages
-from .parse import resume_hashes as parse_resume_hashes
+from parse import num_pages as parse_num_pages
+from parse import resume_hashes as parse_resume_hashes
 
 SOFTWARE_NAMES = [SoftwareName.CHROME.value]
 OPERATING_SYSTEMS = [OperatingSystem.WINDOWS.value, OperatingSystem.LINUX.value]

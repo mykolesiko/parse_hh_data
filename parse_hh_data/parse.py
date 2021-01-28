@@ -252,6 +252,8 @@ def experiences(page, format="%d-%m-%Y"):
     :param format str: desired data format
     :return: list
     """
+    #print("in experience")
+
     page_experiences = []
     page = page.find("div", {"class": "resume-block", "data-qa": "resume-block-experience"})
 
@@ -263,22 +265,91 @@ def experiences(page, format="%d-%m-%Y"):
 
             start, end = time_interval.getText().replace("\xa0", " ").split(' — ')
             
-            item_position = experience_item.find("div",  {"class": "resume-block__sub-title", "data-qa": "resume-block-experience-position"})
+            #<div class="bloko-text-emphasis"><span>PAO Rosbank Societe Generale Group</span></div>
+            company = experience_item.find("div",  {"class": "bloko-text-emphasis"})
+            company = "" if company is None else company.getText()
+            #print(company)
+
+            #<div data-qa="resume-block-experience-position" class="bloko-text-emphasis"><span></span><span class="highlighted">IT</span><span> Support Officer</span></div>
+            #item_position = experience_item.find("div",  {"class": "resume-block__sub-title", "data-qa": "resume-block-experience-position"})
+            item_position = experience_item.find("div",  {"class": "bloko-text-emphasis", "data-qa": "resume-block-experience-position"})
             item_position = "" if item_position is None else item_position.getText()
+            #print(f"item = {item_position}")
 
             item_description = experience_item.find("div", {"data-qa": "resume-block-experience-description"})
             description_child = item_description.findChild()
             item_description = item_description.getText() if description_child is None else str(description_child)
+            
 
             page_experiences.append(
                 {"start": date(start, format=format),
                  "end": date(end, format=format),
+                 "company": company,
                  "position": item_position,
                  "description": item_description}
             )
 
     return page_experiences
 
+
+
+def certificates(page):#, format="%d-%m-%Y"):
+    """
+    :param bs4.BeautifulSoup page: resume page
+    :param format str: desired data format
+    :re: list
+    
+    """
+    #print("1")
+    page_dop = []
+
+    #<div data-qa="resume-block-additional-education" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Повышение квалификации, курсы</span><a data-qa="resume-block-additional-education-edit" class="resume-block-edit resume-block-edit_capitalize" href="/applicant/resumes/edit/education?resume=fca5698aff08aa635d0039ed1f447631434632&amp;field=additionalEducation">редактировать</a></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2">2004</div><div class="bloko-column bloko-column_xs-4 bloko-column_s-6 bloko-column_m-7 bloko-column_l-10"><div class="resume-block-container" data-qa="resume-block-education-item"><div data-qa="resume-block-education-name" class="bloko-text-emphasis"><span>MIPT</span></div><div data-qa="resume-block-education-organization"><span>Coursera</span><span>, </span><span>DataScientist</span></div></div></div></div></div></div></div></div>
+    page = page.find("div", {"class": "resume-block", "data-qa": "resume-block-additional-education"})
+
+    if page is not None:
+        #print("1")
+        page = page.find("div", {"class": "resume-block-item-gap"})
+        #print("1")
+        for item in page.findAll("div", {"class": "resume-block-item-gap"}):
+
+            #print("1")    
+            #<div class="bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2">2003</div>
+            year = item.find("div", {"class": "bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2"})
+            #print(year)
+            year.extract()
+            year_str = year.getText()
+            #print(year_str)
+            
+            #<div data-qa="resume-block-education-name" class="bloko-text-emphasis"><span>Coursera</span></div>
+            company = item.find("div",  {"class": "bloko-text-emphasis", "data-qa": "resume-block-education-name"})
+            company = "" if company is None else company.getText()
+            #print(company)
+
+
+
+            #<div data-qa="resume-block-education-organization"><span>Coursera</span><span>, </span><span>DataScientist</span></div>
+            org_spec = item.find("div", {"data-qa":"resume-block-education-organization"})
+            org_spec = "" if org_spec is None else org_spec.getText()
+            #print(specialization)
+            org, spec = org_spec.strip().split(",")
+
+
+            #<div data-qa="resume-block-education-organization"><!-- --><!-- --><span>Coursera</span><span>, </span><span>DataScientist</span></div>
+            #<span>Coursera</span>
+            #item_description = experience_item.find("div", {"data-qa": "resume-block-experience-description"})
+            #description_child = item_description.findChild()
+            #item_description = item_description.getText() if description_child is None else str(description_child)
+
+            page_dop.append(
+                {"year" : year_str,
+                 "institution" : company,
+                 "organization" : org,
+                 "specialization" : spec
+
+                }
+            )
+
+    return page_dop
 
 def skill_set(page):
     """
@@ -316,6 +387,7 @@ def resume(page):
     :param bs4.BeautifulSoup page: resume page
     :return: dict
     """
+    #print("***********************")
     page = page.find("div", {"id": "HH-React-Root"})
 
     resume_position = position(page)
@@ -330,6 +402,7 @@ def resume(page):
         "salary": position_salary(resume_position),
         "education_level": education_level(resume_education),
         "education": educations(resume_education),
+        "certificates": certificates(page),
         "language": languages(page),
         "experience": experiences(page),
         "skill_set": skill_set(page),
