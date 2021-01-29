@@ -1,4 +1,4 @@
-from parse_hh_data import download, parse
+import download, parse
 import json
 
 ids = download.resume_ids(
@@ -20,11 +20,11 @@ print(s)
 with open('resume.json', 'w', encoding ='utf8') as outfile:
     json.dump(data, outfile, indent=4, ensure_ascii=False)
 
-import csv
-keys = data[0].keys()
-with open('resume.csv', 'w', newline='')  as output_file:
-    dict_writer = csv.DictWriter(output_file, keys)
-    dict_writer.writeheader()
-    dict_writer.writerows(data)
+#import csv
+#keys = data[0].keys()
+#with open('resume.csv', 'w', newline='')  as output_file:
+#    dict_writer = csv.DictWriter(output_file, keys)
+#    dict_writer.writeheader()
+#    dict_writer.writerows(data)
 
 
