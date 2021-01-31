@@ -223,13 +223,18 @@ def portfolio(page):
     # <a data-qa="resume-block-portfolio-edit" class="resume-block-edit resume-block-edit_capitalize" href="/applicant/resumes/edit/experience?resume=fca5698aff08aa635d0039ed1f447631434632&amp;field=portfolio">редактировать</a></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><div class="form__popup m-resume_portfolio"><div class="resume-block__portfolio-wrapper"><a class="resume__portfolio-item"><img src="https://hhcdn.ru/photo/610127889.png?t=1612012337&amp;h=ALkfOGpJ6aCIMQZFsV_j2Q" loading="lazy" alt=""></a></div></div></div></div></div></div></div>    
     page  = page.find("div", {"data-qa":"resume-block-portfolio", "class":"resume-block"})
     
+    portfolio_items = {}
     if page is not None:
-        page = page.find("a",  {"class" : "resume__portfolio-item"})
-        if page is not None:
-            page = page.find("img")
-            if page is not None:
-                return (page["src"])
-    return ""    
+        items = page.find_all("a",  {"class" : "resume__portfolio-item"})
+        s = 0
+        for item in items:
+            if item is not None:
+                page = item.find("img")
+                if page is not None:
+                    print(page["src"])
+                    portfolio_items.update({f"portfolio_item {s}" : page["src"]})
+                    s += 1
+    return  portfolio_items   
 
 def position_salary(position_block):
     """
@@ -394,6 +399,52 @@ def experiences(page, format="%d-%m-%Y"):
 
     return page_experiences
 
+
+def attestation(page, format="%d-%m-%Y"):
+    """
+    :param bs4.BeautifulSoup page: resume page
+    :param format str: desired data format
+    :return: list
+    """
+    #print("in experience")
+
+    page_attestation = []
+    page = page.find("div", {"class": "resume-block", "data-qa": "resume-block-attestation-education"})
+
+    if page is not None:
+        for item in page.find_all("div", {"class": "resume-block-item-gap"}):
+            if item is not None:
+
+                #<div class="bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2">2006</div>
+                page1 = item.find("div", {"class": "bloko-column bloko-column_xs-4 bloko-column_s-2 bloko-column_m-2 bloko-column_l-2"})
+                if page1 is not None:
+                    year = "" if page1 is None else page1.getText()
+                    #<div class="bloko-column bloko-column_xs-4 bloko-column_s-6 bloko-column_m-7 bloko-column_l-10"><div class="resume-block-container" data-qa="resume-block-education-item"><div data-qa="resume-block-education-name" class="bloko-text-emphasis"><span>MIPT</span></div><div data-qa="resume-block-education-organization"><span>Coursera</span><span>, </span><span>DataScientist</span></div></div></div>
+                    #<div class="resume-block-container" data-qa="resume-block-education-item"><div data-qa="resume-block-education-name" class="bloko-text-emphasis"><span>MIPT</span></div><div data-qa="resume-block-education-organization"><span>Coursera</span><span>, </span><span>DataScientist</span></div></div>
+                page2 = item.find("div", {"class": "bloko-column bloko-column_xs-4 bloko-column_s-6 bloko-column_m-7 bloko-column_l-10"})
+                if page2 is not None: 
+                    page2 =  page2.find("div", {"class": "resume-block-container", "data-qa" : "resume-block-education-item"})
+                    name = page2.find("div" , {"data-qa" : "resume-block-education-name"})
+                    name = "" if name is None else name.getText()
+                    print(name)
+
+                    education_org = page2.find("div", {"data-qa":"resume-block-education-organization"})
+                    education_org = "" if education_org is None else education_org.getText()
+                    #print(f"item = {item_position}")
+
+            
+     
+            page_attestation.append(
+                {"year": year,
+                 "institution": name,
+                 "organization_specialization": education_org}
+            )
+
+    return page_attestation
+
+
+
+
 def additional(page): 
     page_add = []
     #<div data-qa="resume-block-additional" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Гражданство, время в пути до работы</span><a data-qa="resume-block-additional-edit" class="resume-block-edit resume-block-edit_capitalize" href="/applicant/resumes/edit/additional?resume=fca5698aff08aa635d0039ed1f447631434632">редактировать</a></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><p>Гражданство: Россия</p><p>Разрешение на работу: Россия</p><p>Желательное время в пути до работы: <span class="resume-block-travel-time">Не имеет значения</span></p></div></div></div></div></div>
@@ -415,7 +466,66 @@ def additional(page):
                         s += 1
     page_add.append(dop)
     return  page_add  
+
+
+def recommendations(page): 
+    page_recom = []
+    #<div data-qa="resume-block-additional" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Гражданство, время в пути до работы</span><a data-qa="resume-block-additional-edit" class="resume-block-edit resume-block-edit_capitalize" href="/applicant/resumes/edit/additional?resume=fca5698aff08aa635d0039ed1f447631434632">редактировать</a></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><p>Гражданство: Россия</p><p>Разрешение на работу: Россия</p><p>Желательное время в пути до работы: <span class="resume-block-travel-time">Не имеет значения</span></p></div></div></div></div></div>
+    page = page.find("div", {"class": "resume-block", "data-qa":"resume-block-recommendation"})
+    print("rec")
+    recommendations = {}
+    if page is not None:
+        page = page.find("div", {"class": "resume-block-item-gap"})    
+        if page is not None:
+            page = page.find("div", {"class":"resume-block-container"})    
+            if page is not None:
+                print(page)    
+                s = 0
+                str = ""
+                for item in page.findAll("div"):
+                    if item is not None:
+                        print(s)
+                        print(item)
+                        if s % 2 == 0:
+                            str = item.getText()
+                        else :
+                            str = str +  " " + item.getText()  
+                            recommendations.update({f"recommendation {s//2 + 1}" : str})
+                        s += 1
+    page_recom.append(recommendations)
+    return  page_recom  
+
+def certificates2(page): 
+    page_certs = []
+    #<div data-qa="resume-block-additional" class="resume-block"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><h2 data-qa="bloko-header-2" class="bloko-header-2 bloko-header-2_lite"><span class="resume-block__title-text resume-block__title-text_sub">Гражданство, время в пути до работы</span><a data-qa="resume-block-additional-edit" class="resume-block-edit resume-block-edit_capitalize" href="/applicant/resumes/edit/additional?resume=fca5698aff08aa635d0039ed1f447631434632">редактировать</a></h2></div></div></div><div class="resume-block-item-gap"><div class="bloko-columns-row"><div class="bloko-column bloko-column_xs-4 bloko-column_s-8 bloko-column_m-9 bloko-column_l-12"><div class="resume-block-container"><p>Гражданство: Россия</p><p>Разрешение на работу: Россия</p><p>Желательное время в пути до работы: <span class="resume-block-travel-time">Не имеет значения</span></p></div></div></div></div></div>
+    page = page.find("div", {"class": "resume-block", "data-qa":"resume-block-certificate"})
+    if page is None:
+        return []
+    print("rec")
+    certs = {}
+    s = 0
+    #<div class="resume-certificates-view__year-group"><div class="resume-certificates-view__year-group-title">2010</div><ul class="resume-certificates-view__items"><li class="resume-certificates-view__item"><span class="resume-certificates-view__item-title"><a target="_blank" rel="noopener noreferrer" href="http://345435.ru">certificate2</a></span></li></ul></div>
+    for item in page.findAll("div",  {"class" : "resume-certificates-view__year-group"}):
+        if item is not None:
+            print(item)
+            #<div class="resume-certificates-view__year-group-title">2010</div>
+            year = item.find("div",  {"class" : "resume-certificates-view__year-group-title"})
+            if year is not None:
+                year = "" if year is None else year.getText()
+                certs.update({"year" : year})            
+            page2 = item.find("ul",  {"class" : "resume-certificates-view__items"})
+            if page2 is not None:
+                name_link = page2.find("a")
+                name = "" if name_link is None else name_link.getText()
+                certs.update({"name" : name})            
+                certs.update({"link" : name_link["href"]})      
+            page_certs.append(certs)
     
+    return  page_certs
+
+
+
+
 
 def certificates(page):#, format="%d-%m-%Y"):
     """
@@ -540,10 +650,13 @@ def resume(page):
         "education_level": education_level(resume_education),
         "education": educations(resume_education),
         "courses": certificates(page),
+        "certificates": certificates2(page),
         "language": languages(page),
         "experience": experiences(page),
         "skill_set": skill_set(page),
         "skills": skills(page),
+        "recommendations" : recommendations(page),
+        "attestation" : attestation(page),
         "dop_info": additional(page),
         "portfolio": portfolio(page)
     }
