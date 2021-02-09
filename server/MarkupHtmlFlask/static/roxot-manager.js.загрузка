@@ -1,0 +1,11 @@
+(function (c) {
+    let script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = 1;
+    script.src = c.managerUrl;
+    let head = document.getElementsByTagName('head')[0];
+    head.insertBefore(script, head.firstChild);
+    window.rom = window.rom || {cmd: [], icmd: []};
+    window.rom.icmd = window.rom.icmd || [];
+    window.rom.icmd.push(c);
+})({"adBlockMode":"iframe","managerUrl":"https:\/\/cdn-plus.roxot-panel.com\/roxot-wrapper\/js\/roxot-manager-engine.js?v=s-d5bc025a-986c-481a-b34c-91c735d32397","wrapperUrl":"https:\/\/cdn-plus.roxot-panel.com\/roxot-wrapper\/js\/roxot-wrapper.js?v=s-d5bc025a-986c-481a-b34c-91c735d32397","placementConfigTemplate":"https:\/\/cdn-plus.roxot-panel.com\/wrapper-builder\/placement\/__PLACEMENT_ID__?v=d-c4d06d8e-7aa9-4c3b-a242-13d45f7d3fcf","isLanguageSpecific":false,"hostConfig":{"hh.ru":{"wrapperOptions":[]}},"isBrowserSpecific":false,"isOsSpecific":false,"isDeviceTypeSpecific":true,"dynamicUrlTemplate":"","wrapperConfig":{"prebid":{"adjustment":{"mytarget":0.2,"rubicon":0.3,"otm":0.8,"segmento":0.85,"criteo":0.85},"analytics":{"publisherId":"bd747643-615b-4859-8be1-107db76896e5"},"path":"https:\/\/cdn-plus.roxot-panel.com\/roxot-wrapper\/js\/prebid.js?v=s-d5bc025a-986c-481a-b34c-91c735d32397"},"adfox":{"hb":{"biddersMap":{"betweenDigital":"1471719","myTarget":"1471718","otm":"1471725","segmento":"1496136","hybrid":"1505514","adriver":"1508036","buzzoola":"1547542","rtbhouse":"1393902","criteo":"1393905","getintent":"1393904","videonow":"1407059"},"timeout":1000}}},"lazyLoading":[]})

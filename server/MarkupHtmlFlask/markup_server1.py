@@ -6,7 +6,10 @@ from flask import Flask, redirect, url_for, request
 import logging
 from logging import config
 import yaml
+import download1
 
+HOST = "138.68.99.110"
+PORT = "5002"
 
 def setup_logging():
    """ description """
@@ -20,7 +23,7 @@ APPLICATION_NAME = 'markup_server1'
 logger = logging.getLogger(APPLICATION_NAME)
 print("********************************")
 setup_logging()
-app = Flask(__name__)
+app = Flask(__name__,static_folder='static')
 
 
 def get_data_dir():
@@ -56,6 +59,10 @@ def markup_callback(doc_id, filename):
                return redirect(url_for('markup_html', doc_id = doc_id))
            else:
                return redirect(url_for('markup_html', doc_id = doc_id - 1))
+
+
+        elif (request.form['markup_button'] == 'Search'):
+               return redirect(url_for('search'))
   
         elif (request.form['markup_button'] != 'Next'):
             result_file = get_result_file()
@@ -122,7 +129,7 @@ def markup_html(doc_id):
                     <input type="submit" name="markup_button" value="Next" style="height:50px;width:100px;">
                     <textarea name="comment" align="bottom" rows="5" cols="50">{comment}</textarea>
                     
-                    <input type="submit" name="search" value="Search" style="height:50px;width:100px;">
+                    <input type="submit" name="markup_button" value="Search" style="height:50px;width:100px;">
 
 
                 </p>
@@ -150,3 +157,64 @@ def markup_html(doc_id):
     logger.info("end markup_html")
 
     return markup_html
+
+
+
+@app.route('/search/')
+def search():
+    logger.info("start search")
+    #print("search")
+
+    #search_html = "hello"    
+    #with open("search_resume.html", mode='r') as fin:
+         #print(search_html)
+         #search_html = fin.read()
+         #print(search_html)
+#   logger.info("end search_html")
+
+    #return search_html
+    return redirect(url_for('static', filename='search_resume.html'))
+
+
+
+@app.route('/search/resume')
+def search_resume():
+    logger.info("search_resume")
+    url = request.url
+    url = url.replace(f"{HOST}:{PORT}","hh.ru")
+    url = url + "&page=1"
+    print(url)
+    ids = download1.search_resume_ids(url)
+
+    dirname = 'resume_html'
+    if not os.path.exists(dirname):
+        os.makedirs(dirname)
+
+    dirname2 = dirname + '_reduced'
+    if not os.path.exists(dirname2):
+        os.makedirs(dirname2)
+
+
+
+    print('len(ids)={}'.format(len(ids)))
+    for k, id in enumerate(ids):
+         resume_soup = download1.resume(id)
+
+         filepath = os.path.join(dirname, str(id) + '.html')
+         with open(filepath, 'w') as fin:
+             fin.write(str(resume_soup))
+         to_extract = resume_soup.findAll('script')
+         for i, item in enumerate(to_extract):
+             if i not in [0,6,7,8,9,10]:
+                  item.extract()
+         filepath = os.path.join(dirname2, str(id) + '.html')
+         with open(filepath, 'w') as fin:
+	      #print(f"write resume with id = {id}")	      	
+              print("write")
+              fin.write(str(resume_soup))
+         
+       
+    return redirect(url_for('start'))
+
+     
+

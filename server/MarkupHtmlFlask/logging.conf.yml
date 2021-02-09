@@ -1,0 +1,25 @@
+version: 1
+formatters:
+    simple:
+         class: logging.Formatter
+         format: "%(levelname)s: %(message)s"
+handlers:
+    file_handler1:
+        class: logging.FileHandler
+        filename: marker.log
+        level: DEBUG
+        formatter: simple
+    file_handler2:
+        class: logging.FileHandler
+        filename: marker.warn
+        level: WARNING
+        formatter: simple
+loggers:
+    stackoverflow:
+        level: DEBUG
+        handlers: [file_handler1]
+        propagate: yes
+root:
+    level: WARNING
+    handlers: [file_handler2]
+
