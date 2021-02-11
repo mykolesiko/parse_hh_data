@@ -25,13 +25,6 @@ COOL = 2
 NO_RESUME = '666'
 
 
-checked_spam = ""
-checked_soso = ""
-checked_cool = ""
-checked_not_marked = ""
-
-
-
 def setup_logging():
    """ description """
    with open(DEFAULT_LOGGING_CONFIG_FILEPATH) as file:
@@ -54,7 +47,7 @@ def read_resumes(root_dir):
             resume_id, ext = hfile.split(".")
             files_data.loc[s, 'resume_id'] = resume_id
             files_data.loc[s, 'folder'] = folder
-            files_data.loc[s, 'mark'] = "Not_marked"
+            files_data.loc[s, 'mark'] = "no mark"
             files_data.loc[s, 'comment'] = ""
 
             s += 1
@@ -82,31 +75,24 @@ app = Flask(__name__,static_folder='static')
 
 def get_resume(resume_id, folder, mark, command):
     print(resume_id, folder, mark, command)
-    print(resume_data.head())
-    data = resume_data[(resume_data.folder == folder)]
-    print(data.shape)
-    data = data[data['mark'].isin(mark)]
-    print(data.shape)
-    #print(data.info())
+    print(resume_data)
+    data = resume_data[(resume_data.folder == folder) & (resume_data.mark == mark)]
+    print(data.info())
     resumes = data['resume_id'].to_list()
+    print(resumes)
     size = len(resumes)
     print(size)
     if size == 0:
         return NO_RESUME
     if command == PREV:
-            print ("PREV")
             ind = ind_new = resumes.index(resume_id)
-            print(ind)
             ind_new =  (ind - 1 + size) % size 
-            print(ind_new)
             resume_id_new = data.iloc[ind_new, 0]
 
 
     elif command == NEXT:
-            print("NEXT")
             ind = ind_new = resumes.index(resume_id)
             ind_new =  (ind + 1 + size) % size
-            print(ind_new)
             resume_id_new = data.iloc[ind_new, 0]
 
 
@@ -122,38 +108,14 @@ def get_resume(resume_id, folder, mark, command):
 @app.route('/')
 def start():
     logger.info("start")
-    return redirect(url_for('markup_html', folder = "Default",  resume_id = "0"))
+    return redirect(url_for('markup_html', folder = "default",  resume_id = 0))
 
 @app.route('/callback/<string:folder>/<string:resume_id>', methods = ['POST', 'GET'])
 def markup_callback(folder, resume_id):
     print(request.form)    
-    mark = []
-    global  checked_spam, checked_cool, checked_soso, checked_not_marked
-    checked_spam = ""
-    checked_soso = ""
-    checked_cool = ""
-    checked_not_marked = ""
-
-    if "spam" in request.form.keys():
-        print("checkbox spam")
-        mark.append("Spam")
-        checked_spam = "checked"
-    if "soso" in request.form.keys():
-        print("checkbox soso")
-        mark.append("So-so")
-        checked_soso = "checked"
-    if "cool" in request.form.keys():
-        print("checkbox cool")
-        checked_cool = "checked"
-        mark.append("Cool")
-    if "not_marked" in request.form.keys():
-        print("checkbox not_marked")
-        mark.append("Not_marked")
-        checked_not_marked = "checked"
-    folder = request.form['folder']
-
-    if request.method == 'POST':
-        print(request.form)
+    mark = [] 
+    if request.form[''] 
+    if request.method == 'GET':
         if (request.form['markup_button'] == 'Prev'):
             logger.info("Prev")
             resume_id_prev = get_resume(resume_id, folder, mark, PREV)
@@ -162,34 +124,29 @@ def markup_callback(folder, resume_id):
         if (request.form['markup_button'] == 'Next'):
             logger.info("Next")
             resume_id_next = get_resume(resume_id, folder, mark, NEXT)
-            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_next ))
+            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_next))
 
 
         elif (request.form['markup_button'] == 'Search'):
             return redirect(url_for('search'))
   
         elif (request.form['markup_button'] == 'Cool') | (request.form['markup_button'] == 'Soso') | (request.form['markup_button'] == 'Spam'):
-            print("next cool spam")
             ind = resume_data['resume_id'].to_list().index(resume_id)
-            print(ind)
             if (ind):
-                print("1")
-                resume_data.loc[ind, 'mark'] =  request.form['markup_button']
-                resume_data.loc[ind, 'comment'] =  request.form['comment']
-                print("2")
+                resume_data.iloc[ind, 'mark'] =  request.form['markup_button']
+            resume_data.iloc[ind, 'comment'] =  request.form['comment']
             logger.info("Mark")
             resume_id_next = get_resume(resume_id, folder, mark, NEXT)
-            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_next,  checked_spam = checked_spam, checked_soso = checked_soso, checked_cool = checked_cool, checked_not_marked = checked_not_marked ))
+            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_next))
 
         elif (request.form['markup_button'] == 'Refresh'):
             logger.info("Refresh")
-
             resume_id_first = get_resume(resume_id, folder, mark, FIRST)
-            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_first ))
+            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id_first))
         elif (request.form['markup_button'] == 'Save'):
             logger.info("Save")
             resume_data.to_csv("FILE_RESUME_MARKED")
-            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id ))
+            return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id))
 
 
 
@@ -197,15 +154,13 @@ def markup_callback(folder, resume_id):
 def markup_html(folder, resume_id):
     logger.info("start markup_html")
     print(folder, resume_id)
-
-    global  checked_spam, checked_cool, checked_soso, checked_not_marked   
-    print(checked_spam)
-    marks= "Not_marked"
+   
+    marks= "no mark"
     comment = " "
     
     if (resume_id != NO_RESUME):
         if (resume_id == '0'):
-            resume_id = get_resume(resume_id, folder, ["Spam", "So-so", "Cool","Not_marked"], FIRST)
+            resume_id = get_resume(resume_id, folder, marks, FIRST)
             print(resume_id)
             return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id))
         if resume_id != NO_RESUME:
@@ -214,25 +169,24 @@ def markup_html(folder, resume_id):
             ind = resume_data['resume_id'].to_list().index(resume_id) 	
             print(ind)
             if (ind):
-                marks = resume_data.loc[ind, 'mark']
-                comment = resume_data.loc[ind, 'comment'] 
-                folder = resume_data.loc[ind, 'folder']
+                marks = resume_data.iloc[ind, 'mark']
+                comment = resume_data.iloc[ind, 'comment'] 
+                folder = resume_data.iloc[ind, 'folder']
             print(resume_id, marks, comment, folder)
 
-    print("111")
+    print("1")
     markup_insertion = (
-        f''' <form action = "{url_for('markup_callback', folder=folder, resume_id=resume_id)}" method = "POST">
+        f''' <form action = "{url_for('markup_callback', folder=folder, resume_id=resume_id)}" method = "GET">
                   <p>
                     <input type="submit" name="markup_button" value="Cool" style="height:100px;width:200px;background-color:green;color:white">
                     <input type="submit" name="markup_button" value="So-so" style="height:100px;width:200px;background-color:yellow;">
                     <input type="submit" name="markup_button" value="Spam" style="height:100px;width:200px;background-color:red;">
                     <input type="submit" name="markup_button" value="Prev" style="height:50px;width:100px;">
                     <input type="submit" name="markup_button" value="Next" style="height:50px;width:100px;">
-                    <textarea name="comment" rows="5" cols="50" style="aligh:bottom">{comment}</textarea>
-                    <input type="checkbox" name="spam" value="checked" {checked_spam} style="height:50px;width:50px">Spam</input>
-		    <input type="checkbox" name="soso" value="checked" {checked_soso} >Soso</input>
-		    <input type="checkbox" name="cool" value="checked" {checked_cool}>Cool</input>
-		    <input type="checkbox" name="not_marked" value="checked" {checked_not_marked}>No marked</input>
+                    <input type="checkbox" name="spam" value="checked" style="height:50px;width:50px">Spam</input>
+		    <input type="checkbox" name="soso" value="checked" >Soso</input>
+		    <input type="checkbox" name="cool" value="cheked">Cool</input>
+		    <input type="checkbox" name="not_marked" value="checked">No marked</input>
 		    <select name="folder">
 			  <option>Default</option>
 			  <option>First</option>
@@ -252,7 +206,6 @@ def markup_html(folder, resume_id):
 #                    <textarea name="comment" rows="5" cols="50" style="aligh:bottom">{comment}</textarea>
 
 
-
 #		    <input type="checkbox" name="spam">Spam<Br>
 #		    <input type="checkbox" name="soso">Soso<Br>
 #		    <input type="checkbox" name="cool">Cool<Br>
@@ -261,7 +214,7 @@ def markup_html(folder, resume_id):
 #			  <option>First</option>
 #	   	    </select>
  
-    print("222")
+    print("2")
     if resume_id != NO_RESUME:
 
         path = ROOT_DIR + "/" + folder + "/" + resume_id + ".html"

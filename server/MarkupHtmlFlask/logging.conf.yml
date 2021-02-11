@@ -15,7 +15,7 @@ handlers:
         level: WARNING
         formatter: simple
 loggers:
-    stackoverflow:
+    markup_server:
         level: DEBUG
         handlers: [file_handler1]
         propagate: yes
