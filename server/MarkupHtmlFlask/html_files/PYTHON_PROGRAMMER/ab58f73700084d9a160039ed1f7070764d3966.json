@@ -1,0 +1,82 @@
+{
+    "birth_date": "25 апреля 1999",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Python back-end developer",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": 120000,
+        "currency": "руб."
+    },
+    "education_level": "Неоконченное высшее образование",
+    "education": [
+        {
+            "year": 2021,
+            "name": "Московский институт электронной техники, Москва",
+            "faculty, speciality": "СПИНТЕХ, Программный инженер"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-09-2020",
+            "end": "01-12-2020",
+            "company": "Системные решения",
+            "position": "Python backend developer",
+            "description": "Разработка backend системы документооборота. Участвовал в создании файловой системы. Интегрировал mailchimp и smsru. Создал swagger для всего проекта. Участвовал в создании прав на доступ к файлам.\n\nСтек:\n1) Python 3.8\n2) Flask 1.1, Peewee orm\n3) Celery, Redis\n4) Postgresql\n5) Jira\n6) Ubuntu"
+        },
+        {
+            "start": "01-08-2019",
+            "end": "01-01-2020",
+            "company": "РОСБАНК",
+            "position": "Python junior backend developer",
+            "description": "Back-end (фокус), Front-end разработка портала, для автоматизации инфраструктуры банка.\n\nСтек:\n1) Python3.7, Django 2.2\n2) FastAPI для микросервисов\n3) HTML, CSS, Bootstrap4 (редактировал портал для сотрудников банка)\n4) Redmine\n5) Windows\n\nНад чем работал:\n1) Реализован проект по автоматическому созданию учетной запиши AD пользователя с заданными параметрами через портал для сотрудников компании Росбанка. (Fastapi, библиотека ldap3)\n2) Общие доработки и рефакторинг кода портала внутри компании (изменение кода под flake8 и т.д.)"
+        }
+    ],
+    "skill_set": [
+        "Python",
+        "Django Framework",
+        "Linux",
+        "Git",
+        "Flask",
+        "PostgreSQL",
+        "Celery",
+        "ubuntu",
+        "peewee orm"
+    ],
+    "skills": "4 курс института (заканчиваю в 21 году). Соответственно нужно будет минимальное время, чтобы закончить институт.\n\nПроекты:\n- Сайт для профкома института МИЭТ\n\nhttp://profcom-miet.ru/\ngit repo: https://github.com/IMB-a/miet_union\n\nНавыки:\n- Python/Django\n- Опыт работы с библиотеками requests, ldap3\n- Работал с Fastapi\n- Знание git\n- Следую PEP8\n- Опыт работы с Rest Api\n\nПрочие навыки:\n- SQl - хорошо сдан экзамен по реляционным БД, пройден sqlzoo.\n- HTML, CSS, Bootstrap - работал с фронтом портал для сотрудников банка.\n- Опыт работы с bash.\n- Знаком с Linux (Основная рабочая среда)\n- Опыт работы в команде.",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "ab58f73700084d9a160039ed1f7070764d3966",
+    "folder": "PYTHON_PROGRAMMER"
+}

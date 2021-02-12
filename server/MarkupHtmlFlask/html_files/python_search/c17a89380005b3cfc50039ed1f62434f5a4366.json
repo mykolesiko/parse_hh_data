@@ -1,0 +1,137 @@
+{
+    "birth_date": "31 июля 1981",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "м. Шелепиха",
+    "prava": [
+        {
+            "prava1": "Права категории B"
+        }
+    ],
+    "title": "Разработчик Python",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": 150000,
+        "currency": "руб."
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2020,
+            "name": "Geek University (онлайн университет)",
+            "faculty, speciality": "Python разработка"
+        },
+        {
+            "year": 2003,
+            "name": "Волгоградский государственный технический университет, Волгоград",
+            "faculty, speciality": "Экономика и менеджмент, Финансовым менеджер"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2004",
+            "institution": "Квалификационный аттестат",
+            "organization + specialization": "ФСФР, серия 1.0, 5.0"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B2 - Средне-продвинутый"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-03-2020",
+            "end": null,
+            "company": "Forly Capital",
+            "position": "Программист-разработчик",
+            "description": "Разработка биржевого бота для криптовалютной биржи на Python. Взаимодействие по обмену данными со сторонними API (синхронно и асинхронно). Разработка API: Flask, FastApi.  Проектирование БД с использованием SQLAlchemy и PostgreSQL. Тестирование приложений Pytest. "
+        },
+        {
+            "start": "01-09-2019",
+            "end": null,
+            "company": "AmberLight",
+            "position": "Бэк-энд разработчик",
+            "description": "Разработка приложений Django Rest Framework, FastApi. Парсинг данных со сторонних API.Проектирование БД с использованием MongoDB и Postgres. Подключение Яндекс кассы и Битрикс 24. Тестирование приложений Pytest."
+        },
+        {
+            "start": "01-08-2018",
+            "end": "01-05-2020",
+            "company": "GeekBrains, факультет Python разработки",
+            "position": "Cтудент",
+            "description": "Oбучение на факультете Python разработки Geekbrains\nСтек: Python, Django, SQL, Linux, Git, AsyncIO, HTML/CSS, JS\nhttps://github.com/SAMoskalenko"
+        },
+        {
+            "start": "01-02-2019",
+            "end": "01-10-2019",
+            "company": "FITS ME (StartUp проект)",
+            "position": "Бэк-энд разработчик",
+            "description": "Работа с Django Rest Framework.\nНаписание бэк части приложения\nНаписание тестов"
+        },
+        {
+            "start": "01-05-2011",
+            "end": "01-08-2018",
+            "company": "Сбербанк",
+            "position": "Руководитель направления / Директор управления продаж",
+            "description": "Подбор команды, проведение исследований, анализ данных, выработка гипотез, разработка технического задания для проектирования, контроль промежуточных этапов работы, разработка технологии работы с отклонениями"
+        },
+        {
+            "start": "01-09-2003",
+            "end": "01-05-2011",
+            "company": "финансовая компания GLASS",
+            "position": "специалист по рынку ценных бумаг",
+            "description": "анализ компаний с целью совершения сделок на рынке ценных бумаг (включая сделки РЕПО), ведение внутреннего учета ценных бумаг"
+        }
+    ],
+    "skill_set": [
+        "Python",
+        "Django Framework",
+        "REST",
+        "PostgreSQL",
+        "MongoDB",
+        "Git",
+        "SQLAlchemy",
+        "Flask",
+        "FastApi",
+        "Pytest"
+    ],
+    "skills": "Целеустремленность, аналитический склад ума, желание обучаться, умение работать в команде.\nПробежал марафон (42,2 км)",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [
+        {
+            "year": "2016",
+            "institution": "Сбербанк500",
+            "organization_specialization": "Insead, MBA"
+        },
+        {
+            "year": "2016",
+            "institution": "Сбербанк500",
+            "organization_specialization": "Insead, MBA"
+        }
+    ],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "c17a89380005b3cfc50039ed1f62434f5a4366",
+    "folder": "python_search"
+}

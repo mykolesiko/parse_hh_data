@@ -1,0 +1,101 @@
+{
+    "birth_date": "7 декабря 1995",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "м. Новокосино",
+    "prava": [
+        {
+            "prava1": "Права категории A, B"
+        }
+    ],
+    "title": "Java Junior developer",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Web инженер",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2019,
+            "name": "Moscow Aviation Institute (National Research University), Moscow",
+            "faculty, speciality": "Aviation Technology, Aircraft Equipment Life Support Systems, engineer"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B2 - Средне-продвинутый"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-08-2020",
+            "end": null,
+            "company": "it.easyum.ru Java Course (Java programming and web technologies)",
+            "position": "Java student",
+            "description": "В процессе курса был разработан полностью работающий вебсайт, начиная с верстки и заканчивая подключением базы данных на сервер. Ссылка на сайт: panasenkodenis.ru\nТакже некоторые примеры моих работ или задач представлены на гитхаб аккаунте\nhttps://github.com/ostermal7?tab=repositories"
+        },
+        {
+            "start": "01-01-2019",
+            "end": null,
+            "company": "ООО \"Шереметьево Хэндлинг\"",
+            "position": "Ramp agent",
+            "description": "Контроль наземного обслуживания воздушного судна, центровка самолета багажом и грузом, буксировка самолета на точку запуска со стоянки"
+        }
+    ],
+    "skill_set": [
+        "initiative",
+        "stress-resistant",
+        "responsible",
+        "сommunicative",
+        "CSS",
+        "Java",
+        "jQuery",
+        "MySQL",
+        "HTML",
+        "ООП",
+        "Apache Tomcat",
+        "Apache Maven",
+        "JBDC",
+        "JSON API",
+        "Git",
+        "Intellij IDEA",
+        "jstl",
+        "Java SE",
+        "Java EE",
+        "Apache HTTP Server",
+        "Java Servlets"
+    ],
+    "skills": "Technical skills: \n  Programming languages: \n     Java SE(collections,multithreading, design patterns,polymorfism,encapsulation,abstraction,inheritance,exceptions,NIO/IO and etc), Java EE (strong)\n     JavaScript(basic)\n  Additional techonologies:\n     HTML,CSS,XML,JSTL\n     JDBC,SQL (have knowledges for DataBase creating)\n     JQuery,AJAX,JSON(basic)\n     Junit,Log4j\n  Databases:\n     MySQL(strong)\n  Build systems:\n     Maven\n  Version control:\n     Git\n  Development Enviroment and Tools:\n     Intellij Idea\n\nEducation:\n  -December 2019-April 2020 javarush.ru self course (23 level)\n  -May 2020-June2020 Udemy Advanced java by Nail Alishev\n  -August-December 2020 Java Course (Java programming and web technologies)\n В настоящее время изучаю spring и переделываю сайт с курсов под спринг версию самостоятельно",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "8d2c124100089179b00039ed1f34593368334f",
+    "folder": "JAVA_PROGRAMMER"
+}

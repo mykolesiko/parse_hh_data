@@ -1,0 +1,96 @@
+{
+    "birth_date": null,
+    "gender": "Female",
+    "area": "Moscow",
+    "phone": "",
+    "email": "",
+    "metro": "metro station Novokosino",
+    "prava": [],
+    "title": "Travel manager",
+    "specialization": [
+        {
+            "name": "Visa Processing",
+            "profarea_name": "Tourism, Hotels, Restaurants"
+        },
+        {
+            "name": "Meetings, Conferences Organization",
+            "profarea_name": "Tourism, Hotels, Restaurants"
+        },
+        {
+            "name": "Reservations",
+            "profarea_name": "Tourism, Hotels, Restaurants"
+        }
+    ],
+    "salary": {
+        "amount": 100000,
+        "currency": "RUB"
+    },
+    "education_level": "Higher education",
+    "education": [
+        {
+            "year": 2003,
+            "name": "Moscow state University of service",
+            "faculty, speciality": "social and cultural services and tourism, Hotel business and tourism"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Russian",
+            "level": "Native"
+        },
+        {
+            "name": "English",
+            "level": "B2 - Upper Intermediate"
+        },
+        {
+            "name": "Spanish",
+            "level": "A1 - Basic"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-06-2009",
+            "end": null,
+            "company": "VAND VOYAGE LTD.",
+            "position": "Senior manager",
+            "description": "* Development of individual routes on request (private and corporate trips)\n* Reservatons of air and railway tickets, transfers, hotels, conference halls, catering, etc.\n* Providing visa support for foreigners\n* Calculations of estimates, invoicing, control of payment for services.\n* Signing contracts with foreign partners and hotels,\n* Market analysis and formation of special offers.\n* Participation in tenders, foreign exhibitions, accompanying groups on trips."
+        },
+        {
+            "start": "01-12-2007",
+            "end": "01-06-2009",
+            "company": "Focus Asia LTD (Moscow office)",
+            "position": "Reservation manager",
+            "description": "* Development of incentive trips and corporate events depending on the customer's wishes.\n• Monitoring the occupancy and the payment of guaranteed blocks of rooms in hotels.\n* Calculation of tours for individual clients, booking of hotels and services.\n* Organizing and conducting business trips"
+        },
+        {
+            "start": "01-07-2003",
+            "end": "01-11-2007",
+            "company": "Corporate Travel LTD.",
+            "position": "Manager of the corporate Department",
+            "description": "* Development and management of events in MICE services for corporate clients .\n* Full-cycle project management - preparation of event calculations, negotiations with partners both abroad and in Russia, correspondence with foreign partners, participation in tenders, booking services, preparation of related documentation, preparation of documents for visas; if necessary, support at events."
+        }
+    ],
+    "skill_set": [
+        "Capacity Planning",
+        "Responsibility",
+        "Learning & Development",
+        "Stress Management",
+        "Communication skills"
+    ],
+    "skills": "Travel support:\nRealization of MICE events from 15 to 280 persons.\nSupport in advertising and informational trips.\n\nPrograms:\nMaster Tour, Microsoft office, Power Point , Canva, Excel, Hotelbeds, Hotelspro,  Ostrovok, etc.\n\nPersonal skills:\nCommunication, responsibility, purposefulness, diligence, attentiveness.",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Citizenship: Russia",
+            "dop 2": "Desired travel time to work: Up to one hour"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "fa01f3040008566b820039ed1f5a6b6c473263",
+    "folder": "Default"
+}

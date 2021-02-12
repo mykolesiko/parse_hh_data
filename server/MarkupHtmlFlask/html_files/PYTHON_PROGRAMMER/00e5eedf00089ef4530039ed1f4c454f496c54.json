@@ -1,0 +1,80 @@
+{
+    "birth_date": "21 января 1999",
+    "gender": "Женщина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Python-разработчик",
+    "specialization": [
+        {
+            "name": "Начальный уровень, Мало опыта",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2021,
+            "name": "Skillbox",
+            "faculty, speciality": "Python-разработчик"
+        },
+        {
+            "year": 2020,
+            "name": "МИСиС",
+            "faculty, speciality": "Физической химии, Бакалавр"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B2 - Средне-продвинутый"
+        }
+    ],
+    "experience": [],
+    "skill_set": [
+        "Работоспособность",
+        "Git",
+        "Linux",
+        "PostgreSQL",
+        "Django Framework",
+        "Парсинг сайтов",
+        "HTML/CSS/JS начальный уровень",
+        "Асинхронное программирование",
+        "SQL",
+        "Чистый код",
+        "Python",
+        "MySQL",
+        "Python 3.8"
+    ],
+    "skills": "Я - выпускница технического ВУЗа Москвы 2020, в студенческие годы была руководителем группы и главным ответственным лицом, в командной работе занимала преимущественно лидерские позиции.  В результате обучения я приобрела отличные знания высшей математики и английского языка (IELTS exam band 6.0 - B2).\n\nНа данный момент заинтересована в развитии в области программирования. Сейчас активно изучаю Python, ориентируюсь в базовых понятиях. \nЗанимаюсь на курсах Skillbox по профессии Python-разработчик - уже полностью закончила курс Python Basic и нахожусь  процессе изучения курса Python django и Python Advanced.\n\nПриобретенные мной навыки:\n\nPython 3.8\nGit\nLinux\nPostgreSQL\nMySQL \nSQLite3\nНаписание тестов\nDjango Framework \nПарсинг сайтов\nHTML/CSS/JS начальный уровень\nАнглийский язык Upper-Intermediate (IELTS certificate)\nАсинхронное программирование\nЧистый код\nORM\nРегулярные выражения\n\nПо сей день очень много тружусь, чтобы освоить программирование, посему крайне заинтересована в стажировке или любых других работах для погружения в IT индустрию.\n\nМои работы: \n-Создание логики для игры\nhttps://github.com/Sectumsempr/game\n-Создание телеграм-бота для поиска и покупки авиабилетов \nhttps://github.com/Sectumsempr/chatbot\n-Генерация карточек с погодой с сайтов meteo-tv.ru и yandex.ru \nhttps://github.com/Sectumsempr/weathermaker\n-Веб-приложение платформа для блога\nhttps://github.com/Sectumsempr/django_blog\n-Мультипоточное программирование\nhttps://github.com/Sectumsempr/asynchronous_programming\n\n\nБолее подробное резюме: https://docs.google.com/document/d/1Bju7KjJ4OjOMgebN5RT8sXLWGY7KcWbBRdSqvWvEpvI/edit?usp=sharing\n",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "00e5eedf00089ef4530039ed1f4c454f496c54",
+    "folder": "PYTHON_PROGRAMMER"
+}

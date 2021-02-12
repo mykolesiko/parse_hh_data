@@ -1851,3 +1851,777 @@ Traceback (most recent call last):
   File "/root/MarkupHtmlFlask/markup_server4.py", line 223, in markup_callback
     return redirect(url_for('markup_html', folder = folder,  resume_id = RESUME_NO ))
 NameError: name 'RESUME_NO' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 429, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 431, in download
+    get_csv_json(resume_data)
+NameError: name 'get_csv_json' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 14, in get_csv_json
+    for i in resume_data.shape[0]:
+TypeError: 'int' object is not iterable
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 19, in get_csv_json
+    with open(filepath, 'r', encoding = 'utf8') as fhtml:
+FileNotFoundError: [Errno 2] No such file or directory: 'Default//fa01f3040008566b820039ed1f5a6b6c473263.html'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 24, in get_csv_json
+    data_all.append(data)
+NameError: name 'data_all' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 24, in get_csv_json
+    data = parse.resume(BeautifulSoup(html, "html.parser"))
+  File "/root/MarkupHtmlFlask/parse.py", line 659, in resume
+    "attestation" : attestation(page),
+  File "/root/MarkupHtmlFlask/parse.py", line 438, in attestation
+    {"year": year,
+UnboundLocalError: local variable 'year' referenced before assignment
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 26, in get_csv_json
+    data = parse.resume(BeautifulSoup(html, "html.parser"))
+  File "/root/MarkupHtmlFlask/parse.py", line 659, in resume
+    "attestation" : attestation(page),
+  File "/root/MarkupHtmlFlask/parse.py", line 438, in attestation
+    {"year": year,
+UnboundLocalError: local variable 'year' referenced before assignment
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 34, in get_csv_json
+    output_file.writerow(item)
+AttributeError: '_io.TextIOWrapper' object has no attribute 'writerow'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 33, in get_csv_json
+    csv_file = csv/write(output_file)
+NameError: name 'write' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 33, in get_csv_json
+    csv_file = csv_writer(output_file)
+NameError: name 'csv_writer' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 33, in get_csv_json
+    csv_file = csv_writer(output_file)
+NameError: name 'csv_writer' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 36, in get_csv_json
+    csv_file = csv_writer(output_file)
+NameError: name 'csv_writer' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 36, in get_csv_json
+    csv_file = csv_writer(output_file)
+NameError: name 'csv_writer' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 430, in download
+    resume_data = get_resume_data()
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 76, in get_resume_data
+    resumes_marked = pd.read_csv(FILE_RESUME_DATA, dtype={'resume_id':str,'folder': str, 'mark':str, 'comment':str})
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 40, in get_csv_json
+    csv_file.writerow(item.values())
+AttributeError: 'str' object has no attribute 'values'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 40, in get_csv_json
+    csv_file.writerow(item.values())
+AttributeError: 'str' object has no attribute 'values'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 30, in get_csv_json
+    with open(filepath_json, 'r', encoding = 'utf8') as fjson:
+FileNotFoundError: [Errno 2] No such file or directory: 'html_files/Default/fa01f3040008566b820039ed1f5a6b6c473263.json'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 43, in get_csv_json
+    csv_file.writerow(item.values())
+AttributeError: 'str' object has no attribute 'values'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 43, in get_csv_json
+    csv_file.writerow(item.values)
+_csv.Error: iterable expected, not builtin_function_or_method
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 430, in download
+    resume_data = get_resume_data()
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 76, in get_resume_data
+    resumes_marked = pd.read_csv(FILE_RESUME_DATA, dtype={'resume_id':str,'folder': str, 'mark':str, 'comment':str})
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 41, in get_csv_json
+    csv_file.writeheader(data_all[0].keys())
+AttributeError: '_csv.writer' object has no attribute 'writeheader'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 41, in get_csv_json
+    csv_file.writeheader(data_all[0].keys())
+AttributeError: '_csv.writer' object has no attribute 'writeheader'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 42, in get_csv_json
+    csv_file.writeheader(keys)
+AttributeError: '_csv.writer' object has no attribute 'writeheader'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 50, in get_csv_json
+    json_data=pd.read_csv("json.csv",header = True)
+NameError: name 'pd' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 53, in get_csv_json
+    json_data=pd.read_csv("json.csv",header = True)
+NameError: name 'pd' is not defined
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 54, in get_csv_json
+    json_data=pd.read_csv("json.csv",header = True)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 943, in __init__
+    self.options, self.engine = self._clean_options(options, engine)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 1108, in _clean_options
+    validate_header_arg(options["header"])
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/common.py", line 90, in validate_header_arg
+    raise TypeError(
+TypeError: Passing a bool to header is invalid. Use header=None for no header or header=int or list-like of ints to specify the row(s) making up the column names
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 54, in get_csv_json
+    json_data=pd.read_csv("json.csv",header = True, delimiter = "$")
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 943, in __init__
+    self.options, self.engine = self._clean_options(options, engine)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 1108, in _clean_options
+    validate_header_arg(options["header"])
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/common.py", line 90, in validate_header_arg
+    raise TypeError(
+TypeError: Passing a bool to header is invalid. Use header=None for no header or header=int or list-like of ints to specify the row(s) making up the column names
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 54, in get_csv_json
+    json_data=pd.read_csv("json.csv",header = True, delimiter = "$")
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 943, in __init__
+    self.options, self.engine = self._clean_options(options, engine)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/parsers.py", line 1108, in _clean_options
+    validate_header_arg(options["header"])
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/common.py", line 90, in validate_header_arg
+    raise TypeError(
+TypeError: Passing a bool to header is invalid. Use header=None for no header or header=int or list-like of ints to specify the row(s) making up the column names
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 432, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 57, in get_csv_json
+    all_data = pd.merge(resume_data, json_data, on=[resume_id, folder])
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/reshape/merge.py", line 74, in merge
+    op = _MergeOperation(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/reshape/merge.py", line 652, in __init__
+    ) = self._get_merge_keys()
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/reshape/merge.py", line 1005, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/generic.py", line 1563, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'd41a820a000866f3550039ed1f355a71745844'
+ERROR: Exception on /download/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/MarkupHtmlFlask/markup_server4.py", line 436, in download
+    psh.get_csv_json(resume_data)
+  File "/root/MarkupHtmlFlask/parse_saved_html.py", line 27, in get_csv_json
+    data = parse.resume(BeautifulSoup(html, "html.parser"))
+  File "/root/MarkupHtmlFlask/parse.py", line 659, in resume
+    "attestation" : attestation(page),
+  File "/root/MarkupHtmlFlask/parse.py", line 438, in attestation
+    {"year": year,
+UnboundLocalError: local variable 'year' referenced before assignment

@@ -1,0 +1,97 @@
+{
+    "birth_date": "21 мая 1972",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "м. Таганская",
+    "prava": [],
+    "title": "Junior Java-developer  (Младший Java - разработчик)",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": 65000,
+        "currency": "руб."
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 1994,
+            "name": "Московский государственный университет путей сообщения, Москва",
+            "faculty, speciality": "Механический, Вагоны"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2020",
+            "institution": "интернет-стажировка Job4j  (уровни стажер, джуниор) (https://github.com/ayleonov/job4j)",
+            "organization + specialization": "job4j.ru, JAVA-developer"
+        },
+        {
+            "year": "2020",
+            "institution": "интернет-курсы JavaRush  (35 уровень)",
+            "organization + specialization": "javarush.ru, JAVA-developer"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-07-2019",
+            "end": "01-04-2020",
+            "company": "job4j",
+            "position": "Java-разработчик (уровень Junior)",
+            "description": "\n(\nопыта в продакшене нет.)\n"
+        }
+    ],
+    "skill_set": [
+        "Java SE",
+        "PostgreSQL",
+        "Git",
+        "github",
+        "Intellij IDEA",
+        "Maven",
+        "SQL",
+        "SOLID",
+        "Машинопись рус/англ",
+        "коррект. текстов (русск.яз)",
+        "Multithreading основы",
+        "JDBC",
+        "ООП",
+        "Java FX база",
+        "Windows",
+        "HTML",
+        "CSS",
+        "TrackStudio",
+        "Spring core основы",
+        "unit- тесты"
+    ],
+    "skills": "",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не более часа"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "ccc833f20005a7307f0039ed1f416258373270",
+    "folder": "JAVA_PROGRAMMER"
+}

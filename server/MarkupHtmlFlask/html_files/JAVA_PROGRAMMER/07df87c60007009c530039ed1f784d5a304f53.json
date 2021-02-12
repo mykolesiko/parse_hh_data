@@ -1,0 +1,84 @@
+{
+    "birth_date": "3 декабря 1989",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Java-программист",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Неоконченное высшее образование",
+    "education": [
+        {
+            "year": 2011,
+            "name": "Тихоокеанский государственный университет, Хабаровск",
+            "faculty, speciality": "ИСФ, Земельный кадастр"
+        },
+        {
+            "year": 2007,
+            "name": "Лицей N6",
+            "faculty, speciality": ""
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "A2 - Элементарный"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-08-2014",
+            "end": "01-04-2019",
+            "company": "ООО \"ИТЦ-ПТМ\"",
+            "position": "Менеджер по продажам оборудования",
+            "description": "Продажа грузоподъемной техники и комплектующих."
+        },
+        {
+            "start": "01-03-2018",
+            "end": "01-03-2019",
+            "company": "Индивидуальное предпринимательство / частная практика / фриланс",
+            "position": "Java-программист",
+            "description": "Прошел обучение по программе GeekBrains (годовой курс на Java разработчика). \n\nВ рамках обучения пройдено 5 курсов по 8 уроков исключительно по Java Core (ООП, Исключения, Коллекции, Generic, Reflection, основные алгоритмы и тп). Так же по программе проходил курсы по SQL, Spring,  Maven, HTML&CSS."
+        }
+    ],
+    "skill_set": [
+        "HTML",
+        "Java",
+        "Git",
+        "Apache Maven",
+        "SQL",
+        "Spring Framework"
+    ],
+    "skills": "Начинал с HTML&CSS, немного позже я почувствовал необходимость в Backend-е и остановился на Java. Изучение стартовало с портала Javarush. Следующим шагом было обучение  в GeekUniversity на портале geekbrains.ru \n\nВ настоящий момент продолжаю совершенствовать свои навыки, изучаю Spring Framework. Недавно начал писать свой проект  на Spring + Thymeleaf (сайт портфолио), ссылка:\n\nhttps://github.com/MPDenis/The-website-HTML-Spring",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "07df87c60007009c530039ed1f784d5a304f53",
+    "folder": "JAVA_PROGRAMMER"
+}

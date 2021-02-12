@@ -1,0 +1,95 @@
+{
+    "birth_date": "15 июля 1996",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Java Junior+/Middle Developer",
+    "specialization": [
+        {
+            "name": "Банковское ПО",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Другое",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Стартапы",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2021,
+            "name": "Московский авиационный институт (национальный исследовательский университет), Москва",
+            "faculty, speciality": "Институт №6 «Аэрокосмический», «Проектирование аэрогидрокосмических систем»"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-06-2020",
+            "end": null,
+            "company": "Банк ВТБ (ПАО)",
+            "position": "Junior java developer",
+            "description": "Участвовать в разработке / модификации ПО"
+        },
+        {
+            "start": "01-03-2016",
+            "end": "01-08-2016",
+            "company": "Московский авиационный институт (национальный исследовательский университет)",
+            "position": "Инспектор общего отдела",
+            "description": "работа с документами "
+        }
+    ],
+    "skill_set": [
+        "SQL",
+        "Git",
+        "Intellij IDEA",
+        "Apache Maven",
+        "Gradle",
+        "Hibernate ORM",
+        "JUnit",
+        "PostgreSQL",
+        "Mockito",
+        "Atlassian Confluence",
+        "Atlassian Jira",
+        "Bitbucket",
+        "Java",
+        "Spring Framework"
+    ],
+    "skills": "Back-end developer. \n\nссылка на github: https://github.com/uvych\n\nИнтересны любые проекты, которые помогут развиваться в области бэкэнд разработки.\n\n\nАнглийский - на уровне чтения технической документации.\n\nTelegram: @uvych",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "378d2f100007c1c89d0039ed1f4e4d6f443733",
+    "folder": "JAVA_PROGRAMMER"
+}

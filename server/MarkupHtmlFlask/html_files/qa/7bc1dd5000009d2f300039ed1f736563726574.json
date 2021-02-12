@@ -1,0 +1,114 @@
+{
+    "birth_date": "9 February 1988",
+    "gender": "Male",
+    "area": "Moscow",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Продуктовый аналитик / R&D analyst / Data аналитик / Data scientist / BI аналитик",
+    "specialization": [
+        {
+            "name": "Software Development",
+            "profarea_name": "IT, Internet, Telecom"
+        },
+        {
+            "name": "Analyst",
+            "profarea_name": "IT, Internet, Telecom"
+        },
+        {
+            "name": "Marketing",
+            "profarea_name": "IT, Internet, Telecom"
+        }
+    ],
+    "salary": {
+        "amount": 180000,
+        "currency": "RUB"
+    },
+    "education_level": "Higher education",
+    "education": [
+        {
+            "year": 2010,
+            "name": "Марийский государственный технический университет",
+            "faculty, speciality": "экономический / прикладная информатика в экономике, информатик-экономист"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2008",
+            "institution": "Референт-переводчик",
+            "organization + specialization": "ЦДПО при МарГТУ, диплом"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Russian",
+            "level": "Native"
+        },
+        {
+            "name": "English",
+            "level": "B2 - Upper Intermediate"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-11-2020",
+            "end": null,
+            "company": "Пятерочка",
+            "position": "Менеджер по аналитике",
+            "description": "Аналитическая поддержка (big data analysis) процессов в области анализа и исследований клиентского опыта (UX)"
+        },
+        {
+            "start": "01-01-2020",
+            "end": "01-11-2020",
+            "company": "Coca-Cola HBC Russia",
+            "position": "Senior Data Expert",
+            "description": "Разработка и развитие IT и BI инфраструктуры аналитики в компании"
+        },
+        {
+            "start": "01-08-2016",
+            "end": "01-01-2020",
+            "company": "Исследовательский холдинг Ромир",
+            "position": "Руководитель отдела обработки спецпроектов",
+            "description": "Разработка, внедрение и ведение медиа (SSP Panel) и потребительских (преимущественно по госконтрактам) проектов компании. \nВнедрение методик машинного обучения (ML) в проекты"
+        },
+        {
+            "start": "01-07-2013",
+            "end": "01-08-2016",
+            "company": "Исследовательский холдинг Ромир",
+            "position": "заместитель руководителя отдела обработки данных",
+            "description": "Внедрение методик обработки и анализа статистических данных. Обучение персонала отдела.\nОбработка больших массивов данных в БД MySQL,автоматизация отчетов в среде Microsoft Office с использованием VBA. Анализ полученных данных статистическими методами."
+        },
+        {
+            "start": "01-09-2010",
+            "end": "01-07-2013",
+            "company": "Исследовательский холдинг Ромир",
+            "position": "специалист по обработке данных",
+            "description": "Обработка больших массивов данных в БД MySQL,автоматизация отчетов в среде Microsoft Office с использованием VBA. Анализ полученных данных статистическими методами."
+        },
+        {
+            "start": "01-11-2009",
+            "end": "01-09-2010",
+            "company": "ГУ РМЭ \"Информсреда\"",
+            "position": "Специалист второго разряда",
+            "description": "Создание и сопровождение АРМ Медпункт в ПО MS Access, разработка рабочих процессов в Microsoft SharePoint Server, создание приложений в Ms Office на VBA, администрирование и сопровождение регионального портала госуслуг"
+        }
+    ],
+    "skill_set": [],
+    "skills": "Руководство и ведение BI проектов в маркетинг исследованиях, включая проектирование и разработку систем хранения и обработки данных. Разработка и внедрение методологий и алгоритмов анализа данных. Обработка больших массивов данных в SQL. Программирование в среде MsOffice (VBA), Python, PHP. Применение методик ML для анализа данных, в основном с использованием python библиотеки SKLearn. Моделирование с использованием ПО ERWin,BPWin,Rational Rose.",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Citizenship: Russia",
+            "dop 2": "Permission to work: Russia",
+            "dop 3": "Desired travel time to work: Doesn't matter"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "7bc1dd5000009d2f300039ed1f736563726574",
+    "folder": "qa"
+}

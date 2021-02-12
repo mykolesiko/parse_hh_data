@@ -1,0 +1,146 @@
+{
+    "birth_date": "21 May 1980",
+    "gender": "Male",
+    "area": "Moscow",
+    "phone": "",
+    "email": "",
+    "metro": "metro station Buninskaya Alleya",
+    "prava": [],
+    "title": "C# / .NET developer",
+    "specialization": [
+        {
+            "name": "Software Development",
+            "profarea_name": "IT, Internet, Telecom"
+        },
+        {
+            "name": "Project Management",
+            "profarea_name": "IT, Internet, Telecom"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Incomplete higher education",
+    "education": [
+        {
+            "year": 2001,
+            "name": "СПбГУ, ФизФак (Saint Petersburg State University, Faculty of Physics)",
+            "faculty, speciality": "Физический (Faculty of Physics), стат. физика (statistical physics)"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Russian",
+            "level": "Native"
+        },
+        {
+            "name": "English",
+            "level": "C2 - Proficiency"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-09-2013",
+            "end": "01-01-2017",
+            "company": "ООО Swordfish Security (Venafi, Inc. business associate)",
+            "position": "Senior .NET Developer",
+            "description": "Senior .NET Developer, drivers team.\n\nРазработка и поддержка драйверов для Venafi TPP (Trust Protection Platform).\nРазработка по Agile-методологии, работа с требованиями, постановка задач младшим разработчикам, Code Review, reverse engineering.\n\nDevelopment Process: Agile/Scrum.\n\nТехнологии/языки программирования:  .NET 3.5 - 4.5.1, С#, Linq, ASP.NET, MSSQLServer.\n\nТакже: Git/SmartGit, TFS, Jira, Crucible, nUnit."
+        },
+        {
+            "start": "01-01-2010",
+            "end": "01-04-2012",
+            "company": "SQLMaze",
+            "position": ".NET разработчик",
+            "description": "Разработка OLAP-приложения.\nРазработка COM-plug-in'a для существующего приложения.\n\nDevelopment Process: Waterfall.\n\nТехнологии/языки программирования: \n.NET, C#, WinForms, ADO.NET, T-SQL (MSSQLServer 2008), \nWeb-services, Multithreading, COM, VB.NET\n\nИспользовал компоненты: XtraPivotGrid(DevExpress), ChartFX(SoftwareFX)"
+        },
+        {
+            "start": "01-04-2007",
+            "end": "01-10-2007",
+            "company": "Studio - moderna",
+            "position": "web developer (ASP, ASP.NET)",
+            "description": "поддержка сайта www.top-shop.ru\n(bugfix, последующее портирование на базу платформы .NET Framework)\n\nDevelopment Process: Waterfall.\n\nТехнологии/языки программирования: \n.NET, C#, ASP.NET, ASP, VBScript, T-SQL (MSSQLServer 2005), HTML/JavaScript"
+        },
+        {
+            "start": "01-08-2006",
+            "end": "01-03-2007",
+            "company": "QBix",
+            "position": ".NET разработчик",
+            "description": "доработка интранет-портала для страховых фирм (bugfix)\n\nDevelopment Process: Agile/Scrum.\n\nТехнологии/языки программирования: \n.NET, C#, WinForms, ASP.NET, ADO.NET, T-SQL (MSSQLServer 2005), \nWeb-services, HTML/JavaScript"
+        },
+        {
+            "start": "01-11-2004",
+            "end": "01-07-2006",
+            "company": "LUXOFT SPb   (Dell GDC - Global Dedicated Center)",
+            "position": "Старший .NET разработчик",
+            "description": "разработка desktop и web-приложений (intranet) на базе платформы .NET.\nмиграция MSSiteServer-based приложения (на MSCommerceServer).\nобщение с зарубежными заказчиками (согласование требований, \nтехнических спецификаций), создание проектной документации (CMM5),\nназначение заданий разработчикам.\n\nDevelopment Process: RUP.\nCompany's Maturity Level: CMM5. \n\nТехнологии/языки программирования: \n.NET, C#, WinForms, ASP.NET, ADO.NET, MultiThreading\nT-SQL, ASP, Web-services, HTML/JavaScript,\nMSSiteServer, MSCommerceServer\n\nCASE: Rational Rose"
+        },
+        {
+            "start": "01-11-2003",
+            "end": "01-11-2004",
+            "company": "STAR Software (Intel business associate)",
+            "position": ".NET разработчик",
+            "description": "разработка распределенного WinForms-приложения для PDA. \nсоздание внутренних веб-приложений (интранет). \n\nDevelopment Process: eXP.\n\nТехнологии/языки программирования: \n.NET Framework, .NET CompactFramework, C#, WinForms, MultiThreading,\nASP.NET, ADO.NET, T-SQL,Web-services, HTML/JavaScript"
+        },
+        {
+            "start": "01-05-2002",
+            "end": "01-11-2003",
+            "company": "ECTACO",
+            "position": "C/C++ разработчик",
+            "description": "разработка программного обеспечения для карманных переводчиков.\nразработка идентичного Win32-приложения для PC.\n\nDevelopment Process: Waterfall.\n\nТехнологии/языки программирования: \nC/C++, ASM, FoxPro, WinAPI, MFC"
+        },
+        {
+            "start": "01-04-2001",
+            "end": "01-05-2002",
+            "company": "ОКБ \"Электроавтоматика\"",
+            "position": "инженер-программист",
+            "description": "разработка и тестирование программного обеспечения \nдля EFI (Electronic Flight Indicator) - навигационного устройства самолёта.\n\nDevelopment Process: Waterfall.\n\nТехнологии/языки программирования: \nC/C++, WinAPI"
+        }
+    ],
+    "skill_set": [
+        ".NET Framework",
+        "C#",
+        "ASP.NET",
+        "Agile Project Management",
+        "MS SQL Server",
+        "Git",
+        "TFS",
+        "Assembler",
+        "Rational Unified Process",
+        "WCF",
+        "JavaScript",
+        "Design Patterns",
+        "Visual Studio C#",
+        "jQuery",
+        "Atlassian Jira",
+        "Unit Testing",
+        "Разработка проектной документации",
+        "Разработка ПО",
+        "Веб-программирование",
+        "C/C++",
+        "Scrum",
+        "LINQ",
+        "HTML",
+        "Ajax",
+        "Разработка технических заданий",
+        "Web Application Development",
+        "Web API & REST"
+    ],
+    "skills": "Development processes: RUP, Waterfall, eXP, Agile.\n\nOS: Windows.*\nIDE: VS.*\n\nFrameworks: .NET CompactFramework, .NET Framework 1.0 - 4.5.1\nЯзыки/технологии: C#, WinForms, Web-services, ASP.NET, ADO.NET, \nAjax, ASP, JavaScript, HTML, С/С++, T-SQL, Perl, ASM\nRDBMS: MSSQL Server, MS Access\n\nVersion Control Systems / Bugtrackers: Perforce, MSVSS, StarTeam, \nTFS, SVN, Git/SmartGit, Jira\nUnit Testing Tools: NUnit",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Citizenship: Russia",
+            "dop 2": "Permission to work: Russia",
+            "dop 3": "Desired travel time to work: Doesn't matter"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "7ad970520000811b660039ed1f736563726574",
+    "folder": "qa"
+}

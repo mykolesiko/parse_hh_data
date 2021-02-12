@@ -1,0 +1,84 @@
+{
+    "birth_date": "1 июня 1999",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Программист Java",
+    "specialization": [
+        {
+            "name": "Информационные технологии, Интернет, Мультимедиа",
+            "profarea_name": "Начало карьеры, студенты"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Неоконченное высшее образование",
+    "education": [
+        {
+            "year": 2024,
+            "name": "Московский авиационный институт (национальный исследовательский университет), Москва",
+            "faculty, speciality": "Информатики и вычислительной техники"
+        },
+        {
+            "year": 2022,
+            "name": "Школа программистов 21",
+            "faculty, speciality": ""
+        },
+        {
+            "year": 2020,
+            "name": "Московский физико-технический институт (Государственный университет), Москва",
+            "faculty, speciality": "Факультет физической и квантовой электроники"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-07-2020",
+            "end": null,
+            "company": "Сбербанк",
+            "position": "Программист-стажер",
+            "description": "Написание веб-приложения для перехода базы данных с Primary на Standby и наоборот. Используемый стек технологий: Java - backend, ReactJS - frontend."
+        }
+    ],
+    "skill_set": [
+        "Git",
+        "Английский язык",
+        "C/C++",
+        "Linux",
+        "Java",
+        "Spring Framework",
+        "SQL",
+        "Hibernate ORM"
+    ],
+    "skills": "-Знание языка программирования C/C++\n-Знание языка программирования Java. Опыт работы с Spring, Spring Boot, JDBC.\n-Знание HTML/CSS, JavaScript. Опыт работы с ReactJS\n-Опыт работы с git\n-Английский B1 (понимаю техническую документацию)\n-Мой учебный проект для компании Bell Integrator https://github.com/MaximKa99/Bell",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "8549d2e60007cd04dd0039ed1f664f31303045",
+    "folder": "JAVA_PROGRAMMER"
+}

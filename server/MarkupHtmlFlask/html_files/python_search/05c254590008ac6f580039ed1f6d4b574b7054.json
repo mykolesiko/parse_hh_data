@@ -1,0 +1,168 @@
+{
+    "birth_date": "29 мая 1989",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [
+        {
+            "prava1": "Права категории B"
+        }
+    ],
+    "title": "Junior Data Scientist",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Инженер",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        },
+        {
+            "name": "Аналитик",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": 600,
+        "currency": "USD"
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2011,
+            "name": "Московский автомобильно-дорожный государственный технический университет, Москва",
+            "faculty, speciality": "Средства аэродромно-технического обеспечения полётов авиации, инженер"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2021",
+            "institution": "Learn Python 19 (https://learn.python.ru/)",
+            "organization + specialization": "Learn Python (https://learn.python.ru/), КУРС ПРОГРАММИРОВАНИЯ НА PYTHON"
+        },
+        {
+            "year": "2021",
+            "institution": "Введение в Data Science и машинное обучение (stepik.org)",
+            "organization + specialization": "Bioinformatics Institute, Программирование"
+        },
+        {
+            "year": "2020",
+            "institution": "Основы статистики (stepik.org)",
+            "organization + specialization": "Bioinformatics Institute, Статистика"
+        },
+        {
+            "year": "2020",
+            "institution": "Stepik Academy (stepik.org)",
+            "organization + specialization": "Stepik Academy, Математика для Data Science. Математический анализ."
+        },
+        {
+            "year": "2019",
+            "institution": "Программирование на Python (stepik.org)",
+            "organization + specialization": "Bioinformatics Institute, Программирование"
+        },
+        {
+            "year": "2019",
+            "institution": "PYTHON FOR DATA SCIENCE: INTERMEDIATE (www.dataquest.io)",
+            "organization + specialization": "Dataquest Labs, Inc., Python Programmer"
+        },
+        {
+            "year": "2019",
+            "institution": "Python Programmer Track (datacamp.com)",
+            "organization + specialization": "DataCamp, Python Programmer"
+        },
+        {
+            "year": "2014",
+            "institution": "Основы сетей и сетевые операционные системы + Wi - Fi",
+            "organization + specialization": "Центр «Специалист» при МГТУ им. Н.Э.Баумана, Cетевые технологии"
+        },
+        {
+            "year": "2013",
+            "institution": "Induction - Service Engineer",
+            "organization + specialization": "Xerox, Service Engineer"
+        },
+        {
+            "year": "2013",
+            "institution": "Программирование на языке C (Си)",
+            "organization + specialization": "Центр «Специалист» при МГТУ им. Н.Э.Баумана, Программирование и СУБД"
+        },
+        {
+            "year": "2013",
+            "institution": "Основы программирования и баз данных",
+            "organization + specialization": "Центр «Специалист» при МГТУ им. Н.Э.Баумана, Программирование и СУБД"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-01-2019",
+            "end": null,
+            "company": "Индивидуальное предпринимательство / частная практика / фриланс",
+            "position": "Программист Python",
+            "description": "- разработка Telegram-ботов;\n- разработка парсеров соц.сети VK;\n- разработка баз данных на SQLite;\n- подготовка данных для анализа и обучения моделей;\n- разработка моделей машинного обучения, нейронных сетей;\n- разработка минимальных Flask-приложений с машинным обучением;\n- разработка NLP (Natural Language Processing) моделей для Sentiment Analysis;"
+        },
+        {
+            "start": "01-10-2016",
+            "end": null,
+            "company": "НПО «Регион»",
+            "position": "Инженер",
+            "description": "- изготовление дорожных лабораторий;\n- монтаж и демонтаж РЭА (до BGA) на печатные платы;\n- изготовление кабелей различной формы и длины; \n- монтаж и ремонт оборудования;\n- работа с органическими растворителями, диэлектрическими лаками;\n- разработка и трассировка печатных плат в Altium Designer;\n- разработка электронных устройств;\n- проведение испытаний электронных устройств; "
+        },
+        {
+            "start": "01-10-2014",
+            "end": "01-09-2016",
+            "company": "АО «ФЦНИВТ «СНПО «Элерон»",
+            "position": "Инженер",
+            "description": "- сопровождение серийного производства электронного оборудования;\n- проектировка электрических схем в КОМПАС-3D;\n- ремонт и настройка электронного оборудования;\n- разработка электронных устройств;\n- проведение типовых и периодических испытаний электронного оборудования;\n- проведение сертификационных испытаний электронного оборудования;\n- разработка программного обеспечения для тестирования электрических плат на наличие неисправностей в схемах на языке С/С++ и языке ассемблера для Pic-микроконтроллеров;\n- выезд в командировки для проведения пусконаладочных работ и ремонта оборудования на объектах ГК \"Росатом\"."
+        },
+        {
+            "start": "01-10-2011",
+            "end": "01-04-2014",
+            "company": "ООО «Ксерокс (СНГ)»",
+            "position": "Технический администратор",
+            "description": "- выполнение мониторинга работоспособности печатного оборудования;\n- выполнение ремонта и чистки печатного оборудования;\n- консультирование пользователей по работе с печатным оборудованием;\n- решение технических проблем в рамках своей компетенции (замена тонера и бумаги, устранение замятий, застреваний, совместно с IT службой решение проблем с сетевым подключением);\n- взаимодействие с заказчиком по производственным вопросам;\n- установка и настройка новой печатной техники;\n- управление складом продукции и расходных материалов;\n- выполнение инвентаризации печатной техники и расходных материалов;\n- снятие показателей счетчиков и подготовка документов отчетности."
+        }
+    ],
+    "skill_set": [
+        "Python",
+        "Git",
+        "Data Science",
+        "Data Analysis",
+        "Numpy",
+        "Pandas",
+        "Matplotlib",
+        "Machine Learning",
+        "Natural language processing",
+        "nltk",
+        "sklearn",
+        "Gensim",
+        "Regexp"
+    ],
+    "skills": "GitHub - https://github.com/sh1n0b1n0m0n0\nCodeWars - https://www.codewars.com/users/sh1n0b1n0m0n0\nkaggle - https://www.kaggle.com/technovore\n\n\nКлючевые навыки:\n• Уверенное владение Python; \n• Знание основных алгоритмов ML (регрессия, классификация, ансамблевые методы и др.);\n• Опыт построения моделей для Sentiment Analysis c классификаторами (Naive Bayes, Random Forest, Decision Tree);\n• Знание основных метрик оценки алгоритмов (accuracy, precision, recall, F1-score, AUC-ROC, AUC-PR)\n• Опыт предобработки данных;\n• Опыт работы с библиотеками для NLP (nltk, gensim, pymorphy2);\n• Опыт предобработки текста (stemming, lemmatizing, tokenizing, word embedding); \n• Опыт работы с библиотеками (os, sys, re, sklearn, OpenCV, PyTorch, matplotlib, sympy, numpy, pandas, scipy, joblib, pickle, gTTS, Flask);\n• Опыт построения баз данных с применением SQLite и ORM (SQLalchemy);\n• Опыт разработки Telegramm ботов (pyTelegramBotAPI, python-telegram-bot);\n• Опыт разработки парсеров VK c применением библиотек (beautifulsoup, requests);\n\n• Jupyter, PyCharm, VS;\n• Windows;\n• GIT, Trello;\n\n\nИнтересы:\n• 3D-printing;\n• GameDev;\n• DIY or Die;\n• Electric Vehicles;\n• Robotics;\n",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не более часа"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "05c254590008ac6f580039ed1f6d4b574b7054",
+    "folder": "python_search"
+}

@@ -1,0 +1,117 @@
+{
+    "birth_date": "24 декабря 1997",
+    "gender": "Мужчина",
+    "area": "Минск",
+    "phone": "",
+    "email": "",
+    "metro": "м. Могилевская",
+    "prava": [
+        {
+            "prava1": "Имеется собственный автомобильПрава категории B",
+            "prava2": "Имеется собственный автомобиль"
+        }
+    ],
+    "title": "junior java developer",
+    "specialization": [
+        {
+            "name": "Информационные технологии, Интернет, Мультимедиа",
+            "profarea_name": "Начало карьеры, студенты"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Неоконченное высшее образование",
+    "education": [
+        {
+            "year": 2021,
+            "name": "Белорусский государственный технологический университет, Минск",
+            "faculty, speciality": "ЗФ, ИСиТ"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2020",
+            "institution": "EPAM",
+            "organization + specialization": "EPAM treining center, Java Developer"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "A2 - Элементарный"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-10-2020",
+            "end": null,
+            "company": "USave",
+            "position": "Java Developer",
+            "description": "Разработка и внедрение программных решений в сфере трейдинга. Младший Java разработчик."
+        },
+        {
+            "start": "01-07-2020",
+            "end": null,
+            "company": "Food Calendar",
+            "position": "Java Developer",
+            "description": "Разработка проекта в команде с украинскими разработчиками. \nНазвание проекта: Food Calendar\nСуть App: проработка режимов питания с участием врачей-диетологов. Автозаказ нужных продуктов для рациона назначенного врачем и тп.\nТехнологии на проекте(back-end): Java 11+, Spring Boot, Spring Security, Spring Data, Hibernate, Junit. \nБд на проекте: PostgreSQL"
+        },
+        {
+            "start": "01-10-2019",
+            "end": "01-06-2020",
+            "company": "Синтакс Скулл",
+            "position": "Учередитель/Деректор",
+            "description": "Развитие курсов по программированию. Найм персонала, составление программ обучение вместе с преподавателями. Утверждение программ. Привлечение клиентов.\n\nЗакрылись из-за пандемии.(не хватило ресурсов для перехода в онлайн)"
+        },
+        {
+            "start": "01-08-2019",
+            "end": "01-10-2019",
+            "company": "ООО Хакспэйс",
+            "position": "Junior Java Developer",
+            "description": "Проходил оплачиваемую стажировку в продуктовой компании HackSpace. Занимался разработкой внутреннего продукта. \nИз технологий: Java 7+, Spring Boot, Spring Security, Spring Data. БД на проекте: MySQL."
+        }
+    ],
+    "skill_set": [
+        "ООП",
+        "Git",
+        "Java SE",
+        "HTML",
+        "CSS",
+        "Spring Core",
+        "JDBC",
+        "MySQL",
+        "Apache Maven",
+        "Intellij IDEA",
+        "JUnit",
+        "Java 8",
+        "MongoDB",
+        "PostgreSQL",
+        "Spring Boot",
+        "Spring Data",
+        "Spring Security",
+        "JSON API",
+        "Postman"
+    ],
+    "skills": "Hard Skills:\nООП\nGit\nJava SE\nHTML\nCSS\nSpring Core\nJDBC\nMySQL\nApache Maven\nIntellij IDEA\nJUnit\nJava 8+\nMongoDB\nPostgreSQL\nSpring Boot\nSpring Data\nPostman\nGood knowledge of working with JSON API\n\nДорогие HRы не проходите мимо, дайте шанс молодому и очень амбициозному человеку исполнить свою мечту стать разработчиком, который будет служить верой и правдой вашей компании долгие годы!) \n\nХорошего дня, спасибо за внимание!) ",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Беларусь",
+            "dop 2": "Разрешение на работу: Беларусь",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "bdb7abcb000765c8500039ed1f797353385939",
+    "folder": "JAVA_PROGRAMMER"
+}

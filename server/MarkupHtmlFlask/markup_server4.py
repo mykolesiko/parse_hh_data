@@ -11,6 +11,7 @@ import pickle
 from urllib.parse import parse_qs, urlparse
 import numpy as np
 from flask import send_file
+import parse_saved_html as psh
 
 HOST = "138.68.99.110"
 PORT = "5002"
@@ -58,7 +59,7 @@ def read_resumes(root_dir):
             continue
         files = sorted([f for f in os.listdir(root_dir + "/" + folder) if f.endswith('.html')])
         for hfile in files:
-            print(hfile)
+            #print(hfile)
             resume_id, ext = hfile.split(".")
             files_data.loc[s, 'resume_id'] = resume_id
             files_data.loc[s, 'folder'] = folder
@@ -70,11 +71,16 @@ def read_resumes(root_dir):
 
 def get_resume_data() :
     resumes = read_resumes(ROOT_DIR) 
+    print("****************************************")
     print(resumes.info())
     resumes_marked = pd.read_csv(FILE_RESUME_DATA, dtype={'resume_id':str,'folder': str, 'mark':str, 'comment':str})
     print(resumes_marked.info())
+    print("2********************************************************")
     #resume_all = pd.join(resumes_marked, how = 'left', on=['resume_id','folder'])
     resume_all = pd.merge(resumes, resumes_marked, on=['resume_id', 'folder'], how='left')
+    resume_all['mark'].fillna('Not_marked',inplace=True)
+    resume_all['comment'].fillna(' ',inplace=True)
+
     return resume_all	
 
 
@@ -88,13 +94,13 @@ resume_data = get_resume_data()
 print(resume_data.info())
 #resume_data['mark'] = resume_data['mark'].apply(lambda x: 'Not_marked' if x == "" else x) 
 #resume_data['mark'].replace(np.nan, "Not_marked", regex = True)
-resume_data['mark'].fillna('Not_marked',inplace=True)
-resume_data['comment'].fillna(' ',inplace=True)
+#resume_data['mark'].fillna('Not_marked',inplace=True)
+#resume_data['comment'].fillna(' ',inplace=True)
 
 
 folders = sorted([f for f in os.listdir(ROOT_DIR)])
 resume_data.to_csv(FILE_RESUME_DATA, header = True, index = False)
-mark_list = ['checked','checked','checked','checked',f'folders[0]' ]
+mark_list = ['checked','checked','checked','checked',f'{folders[0]}' ]
 checks_file = open("checks.pkl","wb")
 pickle.dump(mark_list, checks_file)
 checks_file.close()
@@ -269,6 +275,7 @@ def markup_html(folder, resume_id):
     
     if (resume_id != NO_RESUME):
         if (resume_id == '0'):
+            print("********")
             resume_id = get_resume(resume_id, folder, ["Spam", "So-so", "Cool","Not_marked"], FIRST)
             print(resume_id)
             return redirect(url_for('markup_html', folder = folder,  resume_id = resume_id))
@@ -306,12 +313,12 @@ def markup_html(folder, resume_id):
                     <input type="submit" name="markup_button" value="Spam" style="height:100px;width:200px;background-color:red;">
                     <input type="submit" name="markup_button" value="Prev" style="height:50px;width:100px;">
                     <input type="submit" name="markup_button" value="Next" style="height:50px;width:100px;">
-                    <textarea name="comment" rows="5" cols="50" style="align:bottom">{comment}</textarea>
+                    <textarea name="comment" rows="5" cols="50" style="margin: auto">{comment}</textarea>
                     <input type="checkbox" name="spam" value="checked" {checked_spam} style="height:50px;width:50px">SPAM   </input>
 		    <input type="checkbox" name="soso" value="checked" {checked_soso} style="height:50px;width:50px">SO-SO  </input>
 		    <input type="checkbox" name="cool" value="checked" {checked_cool} style="height:50px;width:50px">COOL   </input>
 		    <input type="checkbox" name="not_marked" value="checked" {checked_not_marked} style="height:50px;width:50px">NO MARKED   </input>
-		    <select name="folder" style="width:100px">
+		    <select name="folder" style="height:50px;width:300px">
                         {folders_list}		  
 	   	    </select>
  
@@ -424,4 +431,7 @@ def search_resume():
 def download():
     #print(app.config['UPLOAD_FOLDER'])
     print("in download")
-    return send_file("resume_data.csv",as_attachment = True)
+    resume_data = get_resume_data()
+    print("3************")
+    psh.get_csv_json(resume_data)
+    return send_file("resume_data_all.csv",as_attachment = True)

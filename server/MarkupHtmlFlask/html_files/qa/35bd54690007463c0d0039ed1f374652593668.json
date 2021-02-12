@@ -1,0 +1,81 @@
+{
+    "birth_date": "3 января 1999",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "м. Селигерская",
+    "prava": [],
+    "title": "IT-инженер",
+    "specialization": [
+        {
+            "name": "Информационные технологии, Интернет, Мультимедиа",
+            "profarea_name": "Начало карьеры, студенты"
+        },
+        {
+            "name": "Наука, Образование",
+            "profarea_name": "Начало карьеры, студенты"
+        }
+    ],
+    "salary": {
+        "amount": 30000,
+        "currency": "руб."
+    },
+    "education_level": "Неоконченное высшее образование",
+    "education": [
+        {
+            "year": 2021,
+            "name": "Московский государственный технический университет радиотехники, электроники и автоматики, Москва",
+            "faculty, speciality": "Информатика и Вычислительная техника, Математика. Прикладная математика"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2020",
+            "institution": "Мирэа",
+            "organization + specialization": "Cisco, CCNA Routing and Switching: Introduction to Networks"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-06-2020",
+            "end": null,
+            "company": "Крок",
+            "position": "Инженер-техник",
+            "description": "Работаю в подразделении, которое занимается ремонтом и обслуживанием коибов."
+        }
+    ],
+    "skill_set": [
+        "Умение планировать",
+        "Точность и внимательность к деталям",
+        "Пользователь ПК",
+        "Работа в команде",
+        "Cisco"
+    ],
+    "skills": "Очная форма обучения в техническом вузе\nПисал на C, C++, sql, Python (особенно понравился)\n+ умею описывать АС, составлять тз, общаться с заказчиками\n\nЕсть сертификат cisco  CCNA Routing and Switching: Introduction to Networks\n\nЕсть опыт в работе с:\nPTC Mathcad\nRational Rose \nLoginom\nAniLogic\nSAP\nПродуктами Microsoft",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "35bd54690007463c0d0039ed1f374652593668",
+    "folder": "qa"
+}

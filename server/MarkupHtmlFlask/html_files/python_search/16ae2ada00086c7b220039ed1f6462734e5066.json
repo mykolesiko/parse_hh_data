@@ -1,0 +1,102 @@
+{
+    "birth_date": "29 июля 1993",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Разработчик Python",
+    "specialization": [
+        {
+            "name": "Информационные технологии, Интернет, Мультимедиа",
+            "profarea_name": "Начало карьеры, студенты"
+        }
+    ],
+    "salary": {
+        "amount": 60000,
+        "currency": "руб."
+    },
+    "education_level": "Образование",
+    "education": [],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-09-2020",
+            "end": "01-10-2020",
+            "company": "Performance Lab",
+            "position": "стажер-инженер нагрузочного тестирования",
+            "description": "- Создание методики тестирования;\n- Разработка скриптов;\n- Запуск тестов;\n- Анализ результатов тестирования;\n- Составление отчета;\n- Презентация результатов."
+        },
+        {
+            "start": "01-07-2018",
+            "end": "01-03-2020",
+            "company": "Тинькофф Банк",
+            "position": "Ведущий менеджер по работе с юр.лицами",
+            "description": "Работа с юр. лицами с первого звонка до открытия счета. Работа с документами. Внесение данных в бд Siebel."
+        }
+    ],
+    "skill_set": [
+        "Python1",
+        "Git1",
+        "Bash1",
+        "ООП1",
+        "Linux1",
+        "HTTP1",
+        "REST1",
+        "PostgreSQL1",
+        "Grafana1",
+        "InflaxDB1",
+        "Prometheus1",
+        "Kafka1",
+        "Telegraf1",
+        "Django Framework1",
+        "Flask",
+        "SqlAlchemy",
+        "ElasticSearch",
+        "MySQL",
+        "Selenium WebDriver1"
+    ],
+    "skills": "",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [
+        {
+            "year": "2020",
+            "institution": "MIPT",
+            "organization_specialization": "Coursera, Программирование на Python"
+        },
+        {
+            "year": "2020",
+            "institution": "MIPT",
+            "organization_specialization": "Coursera, Программирование на Python"
+        },
+        {
+            "year": "2020",
+            "institution": "Институт биоинформатики, СПбГУ",
+            "organization_specialization": "Stepik, Введение в Linux"
+        }
+    ],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "16ae2ada00086c7b220039ed1f6462734e5066",
+    "folder": "python_search"
+}

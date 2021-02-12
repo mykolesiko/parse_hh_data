@@ -1,0 +1,110 @@
+{
+    "birth_date": "28 ноября 1997",
+    "gender": "Женщина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Junior Python developer",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": 80000,
+        "currency": "руб."
+    },
+    "education_level": "Высшее образование",
+    "education": [
+        {
+            "year": 2020,
+            "name": "Тихоокеанский государственный университет, Хабаровск",
+            "faculty, speciality": "Компьютерных и фундоментальных наук, Программная Инженерия"
+        }
+    ],
+    "courses": [
+        {
+            "year": "2021",
+            "institution": "Data science",
+            "organization + specialization": "Skill branch"
+        },
+        {
+            "year": "2020",
+            "institution": "Яндекс",
+            "organization + specialization": "Яндекс.Практикум, Data science"
+        },
+        {
+            "year": "2020",
+            "institution": "Java разработчик",
+            "organization + specialization": "Stepic"
+        },
+        {
+            "year": "2019",
+            "institution": "Fogstream",
+            "organization + specialization": "Fogstream, Python-разработчик"
+        }
+    ],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-12-2020",
+            "end": null,
+            "company": "Vicuesoft",
+            "position": "QA инженер, Python",
+            "description": "Написание автотестов на python (тестирование видеокарт),\nРабота с git, \nИспользование консоль Linux, \nРабота в команде,\nВзаимодействие с наставником для анализа поставленных задач\n(Стажировка)"
+        },
+        {
+            "start": "01-09-2018",
+            "end": null,
+            "company": "Kodland",
+            "position": "Преподаватель программирования",
+            "description": "Преподавание основ программирования на Python детям 11-15 лет,\nРевью кода,\nОбратная связь родителям"
+        },
+        {
+            "start": "01-09-2020",
+            "end": "01-11-2020",
+            "company": "Сбербанк",
+            "position": "Инженер по сопровождению и администрированию систем (стажировка)",
+            "description": "Работа в консоли Linux\nРабота с Jira\nАнализ лог файлов\nРабота с БД mongo, SQL\nНаписание скриптов для анализа лог файлов на python"
+        }
+    ],
+    "skill_set": [
+        "Python",
+        "Linux",
+        "Git",
+        "ООП",
+        "SQL",
+        "Работа с БД",
+        "Аналитическое мышление",
+        "Анализ данных",
+        "Jupyter notebook"
+    ],
+    "skills": "Интересуюсь темой IT, слежу за последними новостями и событиями.\n\nВ свободное время увлекаюсь спортом: йога, бег, играю на гитаре, люблю гулять и смотреть хорошее кино.",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "8b381c7f000896c1860039ed1f556f70676330",
+    "folder": "python_search"
+}

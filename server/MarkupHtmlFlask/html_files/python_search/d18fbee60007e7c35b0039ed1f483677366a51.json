@@ -1,0 +1,84 @@
+{
+    "birth_date": "8 июля 1998",
+    "gender": "Мужчина",
+    "area": "Москва",
+    "phone": "",
+    "email": "",
+    "metro": "",
+    "prava": [],
+    "title": "Junior Python",
+    "specialization": [
+        {
+            "name": "Программирование, Разработка",
+            "profarea_name": "Информационные технологии, интернет, телеком"
+        }
+    ],
+    "salary": {
+        "amount": null,
+        "currency": null
+    },
+    "education_level": "Высшее образование (Бакалавр)",
+    "education": [
+        {
+            "year": 2020,
+            "name": "Московский государственный строительный университет, Москва",
+            "faculty, speciality": "Промышленное Гражданское Строительство"
+        }
+    ],
+    "courses": [],
+    "certificates": [],
+    "language": [
+        {
+            "name": "Русский",
+            "level": "Родной"
+        },
+        {
+            "name": "Английский",
+            "level": "B1 - Средний"
+        }
+    ],
+    "experience": [
+        {
+            "start": "01-11-2018",
+            "end": null,
+            "company": "Школа программирования Алгоритмика",
+            "position": "Преподаватель",
+            "description": "Обучение детей 5-13 лет программированию на Scratch Jr, Scratch, Python. "
+        }
+    ],
+    "skill_set": [
+        "Python",
+        "SQL",
+        "ООП",
+        "Django Framework",
+        "HTML",
+        "CSS",
+        "FastAPI"
+    ],
+    "skills": "Знаю Python 3,HTML,CSS, SQL, Django, Django REST framework, написал пару парсеров на ruby. \nhttps://github.com/petro12330\nДаже если я Вам не подхожу, отправьте тестовое задание. Это поможет мне заполнить гит проектами)\n",
+    "recommendations": [
+        {}
+    ],
+    "attestation": [
+        {
+            "year": "2019",
+            "institution": "Stepik",
+            "organization_specialization": "Программирование на Python"
+        },
+        {
+            "year": "2019",
+            "institution": "Stepik",
+            "organization_specialization": "Программирование на Python"
+        }
+    ],
+    "dop_info": [
+        {
+            "dop 1": "Гражданство: Россия",
+            "dop 2": "Разрешение на работу: Россия",
+            "dop 3": "Желательное время в пути до работы: Не имеет значения"
+        }
+    ],
+    "portfolio": {},
+    "resume_id": "d18fbee60007e7c35b0039ed1f483677366a51",
+    "folder": "python_search"
+}
